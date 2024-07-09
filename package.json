@@ -19,5 +19,8 @@
   "homepage": "https://github.com/RobertYL/robertyl.com#readme",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1"
+  },
+  "dependencies": {
+    "eleventy-sass": "^2.2.4"
   }
 }

@@ -1,0 +1,26 @@
+@import "solarized";
+
+a {
+    &:visited {
+        color: $color-blossom;
+    }
+
+    &:hover {
+        color: $color-fade;
+        border-bottom: none;
+    }
+}
+
+nav {
+    border-bottom: solid 2px $color-blossom;
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem;
+
+    a {
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}

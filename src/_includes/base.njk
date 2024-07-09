@@ -9,34 +9,36 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sakura.css@1.5.0/css/normalize.min.css">
     <link rel="stylesheet" href="/css/sakura-solarized.css">
     <link rel="stylesheet" href="/css/style.css">
+    {%- if page.fileSlug %}
+        <title>{{ page.fileSlug }} | robertyl</title>
+    {% else %}
         <title>robertyl</title>
-    
+    {% endif %}
   </head>
 
   <body>
     <header>
       <nav style="display: flex; justify-content: space-between;">
         <div style="display: flex; justify-content: flex-begin;">
-            <a href="/"><b>robertyl</b></a>
+            <a href="{{ '/' | url }}"><b>robertyl</b></a>
         </div>
         <div style="display: flex; justify-content: flex-end;">
-            <a href="/about">about</a>
+            <a href="{{ '/about' | url }}">about</a>
             &nbsp;&nbsp;
-            <a href="/research">research</a>
+            <a href="{{ '/research' | url }}">research</a>
             &nbsp;&nbsp;
-            <a href="/scioly">scioly</a>
+            <a href="{{ '/scioly' | url }}">scioly</a>
             &nbsp;&nbsp;
-            <a href="/compro">compro</a>
+            <a href="{{ '/compro' | url }}">compro</a>
         </div>
       </nav>
     </header>
     <main>
-      <h1>robert lee</h1>
-        <p><i>hello!</i></p>
-      
-      <p>i'm an incoming graduate student at <a href="https://engineering.purdue.edu/AAE">Purdue University</a> studying aerospace engineering. i find <a href="/research">astrodynamics</a> beautiful and will be researching multi-body dynamics under the guidance of professor <a href="https://engineering.purdue.edu/people/kathleen.howell.1">Kathleen Howell</a>. beyond academia, i volunteer for <a href="/scioly">science olympiad</a> and occasionally participate in <a href="/compro">programming competitions</a>.</p>
-<p>feel free to reach out and email me at robertyl (at) ucla (dot) edu.</p>
-
+      <h1>{{ title }}</h1>
+      {%- if subtitle %}
+        <p><i>{{ subtitle }}</i></p>
+      {% endif %}
+      {{ content | safe }}
     </main>
   </body>
 
