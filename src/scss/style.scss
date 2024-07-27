@@ -1,32 +1,5 @@
 @import "solarized";
+@import "main-style";
 
-a {
-    &:visited {
-        color: $color-blossom;
-    }
-
-    &:hover {
-        color: $color-fade;
-        border-bottom: none;
-    }
-}
-
-nav {
-    border-bottom: solid 2px $color-blossom;
-    padding-top: 0.5rem;
-    padding-bottom: 1.5rem;
-
-    a {
-        text-decoration: none;
-
-        &:hover {
-            text-decoration: none;
-        }
-    }
-}
-
-footer {
-    border-top: solid 2px $color-fade;
-    margin-top: 3rem;
-    padding-top: 1.5rem;
-}
+@import "solarized-dark";
+.dark{ @import "main-style"; }

@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@xz/fonts@1.0.0/serve/inter.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vladocar/basic.css@1.0.3/css/basic.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sakura.css@1.5.0/css/normalize.min.css">
-    <link rel="stylesheet" href="/css/sakura-solarized.css">
+    <link rel="stylesheet" href="/css/sakura.css">
     <link rel="stylesheet" href="/css/style.css">
     {%- if page.fileSlug %}
         <title>{{ page.fileSlug }} | robertyl</title>
@@ -48,11 +48,40 @@
       {% endif %}
       {{ content | safe }}
     </main>
-    <footer>
-      <p>
+
+    <footer style="display: flex; justify-content: space-between;">
+      <div style="display: flex; justify-content: flex-begin;">
         &copy; 2024 robert lee
-      </p>
+      </div>
+      <div style="display: flex; justify-content: flex-end;">
+        <a id="toggle-dark">light/dark</a>
+      </div>
     </footer>
+
+    <script>
+      "use strict";
+
+      function setDarkMode(dark, preference) {
+        if (dark) {
+          preference !== "dark" ? localStorage.setItem('theme', 'dark') : localStorage.removeItem('theme');
+          document.documentElement.classList.add('dark');
+        } else if (!dark) {
+          preference !== "light" ? localStorage.setItem('theme', 'light') : localStorage.removeItem('theme');
+          document.documentElement.classList.remove('dark');
+        }
+      };
+        
+      const preference = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      if (localStorage.getItem('theme') === "dark" || (!('theme' in localStorage) && preference === 'dark')) {
+        setDarkMode(true, preference);
+        }
+    
+      window.onload = () => {
+        document.getElementById('toggle-dark').addEventListener('click', () => {
+          setDarkMode(!document.documentElement.classList.contains('dark'), preference);
+        });
+      };
+    </script>
   </body>
 
 </html>
