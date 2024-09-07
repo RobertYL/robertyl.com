@@ -8,7 +8,7 @@ layout: base.njk
 
 as a member of the national A-Team, i (along with other a-teamers) develop educational resources, write exams, and supervise across the nation at all levels of competition for the space science events: astronomy, reach for the stars, and solar system. we are generously supported by [NASA's Universe of Learning](https://www.universe-of-learning.org/).
 
-the a-team is always looking for new members. if you're eager to help and interested in joining, please don't hesitate to reach out to me or [Donna](mailto:dlyoung.nso@gmail.com)!
+we are always looking for new members. if you're eager to help and interested in joining, please don't hesitate to reach out to me or [Donna](mailto:dlyoung.nso@gmail.com)!
 
 ### tests
 
