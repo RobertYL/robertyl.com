@@ -14,6 +14,11 @@ module.exports = function(eleventyConfig) {
     });
 
     eleventyConfig.addPassthroughCopy("src/css");
+    eleventyConfig.addPassthroughCopy("src/js");
+    eleventyConfig.addWatchTarget("src/js/");
+
+    // eleventyConfig.addPassthroughCopy("src/backend/js");
+    // eleventyConfig.addWatchTarget("src/backend/js/");
 
     return {
         dir: {

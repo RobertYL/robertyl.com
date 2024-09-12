@@ -47,38 +47,15 @@
     </main>
 
     <footer style="display: flex; justify-content: space-between;">
-      <div style="display: flex; justify-content: flex-begin;">
+      <div style="display: flex; justify-content: flex-begin; flex: 2;">
         &copy; 2024 robert lee
       </div>
-      <div style="display: flex; justify-content: flex-end;">
+      <div style="display: flex; justify-content: flex-end; flex: 2;">
         <a id="toggle-dark">light/dark</a>
       </div>
     </footer>
 
-    <script>
-      "use strict";
-
-      function setDarkMode(dark, preference) {
-        if (dark) {
-          preference !== "dark" ? localStorage.setItem('theme', 'dark') : localStorage.removeItem('theme');
-          document.documentElement.classList.add('dark');
-        } else if (!dark) {
-          preference !== "light" ? localStorage.setItem('theme', 'light') : localStorage.removeItem('theme');
-          document.documentElement.classList.remove('dark');
-        }
-      };
-        
-      const preference = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-      if (localStorage.getItem('theme') === "dark" || (!('theme' in localStorage) && preference === 'dark')) {
-        setDarkMode(true, preference);
-        }
+    <script src="/js/theme.js"></script>
     
-      window.onload = () => {
-        document.getElementById('toggle-dark').addEventListener('click', () => {
-          setDarkMode(!document.documentElement.classList.contains('dark'), preference);
-        });
-      };
-    </script>
   </body>
-
 </html>

@@ -35,6 +35,11 @@ footer {
     a {
         text-decoration: none;
         color: $color-fade;
+        
+        &:visited {
+            // remove visited link recolor
+            color: $color-fade;
+        }
 
         &:hover {
             text-decoration: none;
@@ -42,4 +47,12 @@ footer {
             cursor: pointer;
         }
     }
+}
+
+thead {
+    background-color: $color-bg-alt;
+}
+
+table, td, th {
+    border: 2px solid darken($color-bg_alt, 10%);
 }
