@@ -30,6 +30,7 @@ footer {
     border-top: solid 2px $color-fade;
     margin-top: 3rem;
     padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
     color: $color-fade;
 
     a {
@@ -55,4 +56,16 @@ thead {
 
 table, td, th {
     border: 2px solid darken($color-bg_alt, 10%);
+}
+
+figure {
+    text-align: center;
+    margin: 2rem 4rem;
+    img {
+        margin: 0rem 0rem 1rem;
+    }
+}
+
+img {
+    margin: 0rem 1.5rem 1.5rem;
 }

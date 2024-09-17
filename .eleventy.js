@@ -13,6 +13,7 @@ module.exports = function(eleventyConfig) {
         }
     });
 
+    eleventyConfig.addPassthroughCopy("src/assets/img");
     eleventyConfig.addPassthroughCopy("src/css");
     eleventyConfig.addPassthroughCopy("src/js");
     eleventyConfig.addWatchTarget("src/js/");

@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sakura.css@1.5.0/css/normalize.min.css">
     <link rel="stylesheet" href="/css/sakura.css">
     <link rel="stylesheet" href="/css/style.css">
+
+    <script src="/js/theme.js"></script>
+
     {%- if page.fileSlug %}
         <title>{{ page.fileSlug }} | robertyl</title>
     {% else %}
@@ -42,10 +45,13 @@
       </nav>
     </header>
     <main>
-      <h1>{{ title }}</h1>
-      {%- if subtitle %}
-        <p><i>{{ subtitle }}</i></p>
-      {% endif %}
+      <div>
+        {% block photo %}{% endblock %}
+        <h1>{{ title }}</h1>
+        {%- if subtitle %}
+          <p><i>{{ subtitle }}</i></p>
+        {% endif %}
+      </div>
       {{ content | safe }}
     </main>
 
@@ -63,7 +69,6 @@
       </div>
     </footer>
 
-    <script src="/js/theme.js"></script>
     {% block js %}{% endblock %}
   </body>
 </html>

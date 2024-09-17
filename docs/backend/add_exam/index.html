@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="/css/style.css">
 
     <script src="/js/theme.js"></script>
-        <title>exams | robertyl</title>
+        <title>add_exam | robertyl</title>
     
   </head>
 
@@ -43,37 +43,27 @@
     <main>
       <div>
         
-        <h1>past exams</h1>
-          <p><i>the full catalogue</i></p>
+        <h1>add exam</h1>
+          <p><i>hacking into the mainframe</i></p>
         
       </div>
-      <p>my tournament involvement and past exams i have administered. hover over each tournament for its full name.</p>
-<table id="test-table">
-    <thead>
-        <th> season </th>
-        <th> tournament </th>
-        <th> date </th>
-        <th> event </th>
-    </thead>
-    <tbody id="test-table-body"></tbody>
-</table>
+      <textarea id="data" rows="10"></textarea>
+<div style="text-align: center;">
+    <input id="data_submit" type="button" value="submit"/>
+</div>
     </main>
 
     <footer style="display: flex; justify-content: space-between;">
       <div style="display: flex; justify-content: flex-begin; flex: 2;">
         &copy; 2024 robert lee
       </div>
-      <div style="display: flex; justify-content: center; flex: 1;">
-        <a id="test" href="/scioly">[back to scioly]</a>
-      </div>
-      
       <div style="display: flex; justify-content: flex-end; flex: 2;">
         <a id="toggle-dark">light/dark</a>
       </div>
     </footer>
 
     
-    <script type="module" src="/js/firebase.js"></script>
+    <script type="module" src="/backend/js/add_exam.js"></script>
 
   </body>
 </html>
