@@ -4,6 +4,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>robertyl</title>
+    
+    <meta name="description" content="Personal website for Robert Lee, a Master's student at Purdue University.">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -19,8 +22,6 @@
     <link rel="stylesheet" href="/css/style.css">
 
     <script src="/js/theme.js"></script>
-        <title>robertyl</title>
-    
   </head>
 
   <body>
@@ -44,7 +45,31 @@
       <div>
         
   <div style="margin-left: 70%;">
-    <img src="/assets/img/sierra-view-overlook.jpg" alt="Robert smiling at the Sierra View Overlook." style="float: right;">
+    <picture>
+      <source type="image/webp"
+        sizes="
+          (max-width: 500px) 500px,
+          (max-width: 1000px) 1000px,
+          100vw"
+        srcset="
+          /assets/img/sierra-view-overlook-500w.webp 500w,
+          /assets/img/sierra-view-overlook-1000w.webp 1000w,
+          /assets/img/sierra-view-overlook.webp 1334w"
+      >
+      <img
+        sizes="
+          (max-width: 500px) 500px,
+          (max-width: 1000px) 1000px,
+          100vw"
+        srcset="
+          /assets/img/sierra-view-overlook-500w.jpg 500w,
+          /assets/img/sierra-view-overlook-1000w.jpg 1000w,
+          /assets/img/sierra-view-overlook.jpg 1334w"
+        src="/assets/img/sierra-view-overlook.jpg"
+        alt="Robert smiling at the Sierra View Overlook."
+        style="float: right;"
+      >
+    </picture>
   </div>
 
         <h1>robert lee</h1>
@@ -52,7 +77,7 @@
         
       </div>
       <p>i'm a first year master's student at <a href="https://engineering.purdue.edu/AAE">Purdue University</a> studying aerospace engineering. i find <a href="/research">astrodynamics</a> beautiful and will be researching multi-body dynamics under the guidance of professor <a href="https://engineering.purdue.edu/people/kathleen.howell.1">Kathleen Howell</a>. beyond academia, i volunteer for <a href="/scioly">science olympiad</a> and occasionally participate in <a href="/compro">programming competitions</a>.</p>
-<p>feel free to reach out and email me at robertyl (at) ucla (dot) edu.</p>
+<p>feel free to reach out and email me at robertyl (at) purdue (dot) edu.</p>
 
     </main>
 

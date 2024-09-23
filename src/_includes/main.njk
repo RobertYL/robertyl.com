@@ -2,6 +2,30 @@
 
 {% block photo %}
   <div style="margin-left: 70%;">
-    <img src="/assets/img/sierra-view-overlook.jpg" alt="Robert smiling at the Sierra View Overlook." style="float: right;">
+    <picture>
+      <source type="image/webp"
+        sizes="
+          (max-width: 500px) 500px,
+          (max-width: 1000px) 1000px,
+          100vw"
+        srcset="
+          /assets/img/sierra-view-overlook-500w.webp 500w,
+          /assets/img/sierra-view-overlook-1000w.webp 1000w,
+          /assets/img/sierra-view-overlook.webp 1334w"
+      >
+      <img
+        sizes="
+          (max-width: 500px) 500px,
+          (max-width: 1000px) 1000px,
+          100vw"
+        srcset="
+          /assets/img/sierra-view-overlook-500w.jpg 500w,
+          /assets/img/sierra-view-overlook-1000w.jpg 1000w,
+          /assets/img/sierra-view-overlook.jpg 1334w"
+        src="/assets/img/sierra-view-overlook.jpg"
+        alt="Robert smiling at the Sierra View Overlook."
+        style="float: right;"
+      >
+    </picture>
   </div>
 {% endblock %}
