@@ -1,5 +1,7 @@
+$dark: false;
 @import "blue";
 @import "main-style";
 
+$dark: true;
 @import "blue-dark";
 .dark{ @import "main-style"; }

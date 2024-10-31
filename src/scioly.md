@@ -1,7 +1,7 @@
 ---
 title: science olympiad
 subtitle: paying it forward
-layout: scioly.njk
+layout: base.njk
 ---
 
 [Science Olympiad](https://www.soinc.org/) is the nation's largest team-based science competition, where teams of students take tests, conduct labs, and engineer solutions.
@@ -12,17 +12,15 @@ we are always looking for new members. if you're eager to help and interested in
 
 ### past exams
 
-<!-- <table id="test-table">
-    <thead>
-        <th> season </th>
-        <th> tournament </th>
-        <th> date </th>
-        <th> event </th>
-    </thead>
-    <tbody id="test-table-body"></tbody>
-</table> -->
+*this season*
 
-see the [full catalogue](/scioly/exams).
+> **UT** (oct 26) &mdash; *[materials tbr]*
+>
+> the first exam of the season! though it ended up being a "states" level exam, it touches on many core concepts in this year's rules. i hope teams can use this test as a springboard into their preparations, and to help guide teams along, i plan to release walkthrough materials to help teams review.
+>
+> *check back nov 10!*
+
+*see the [full catalogue](/scioly/exams)*
 
 ### supervising
 
