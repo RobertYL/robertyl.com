@@ -72,6 +72,7 @@ document.querySelectorAll('select').forEach(select => {
         renderExams();
     })
     select.dispatchEvent(new Event('change'));
+    // TODO: fix this so that it doesn't flicker on load
 })
 
 // Get unique seasons and events to filter by

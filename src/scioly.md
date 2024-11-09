@@ -14,11 +14,17 @@ we are always looking for new members. if you're eager to help and interested in
 
 *this season*
 
-> **UT** (oct 26) &mdash; *[materials tbr]*
+> **UT** (oct 26) &mdash;
+> [[exam]](/assets/pdf/2025-Astronomy_C-UT/Exam.pdf)
+> [[images]](/assets/pdf/2025-Astronomy_C-UT/Images.pdf)
+> [[sheet]](/assets/pdf/2025-Astronomy_C-UT/Sheet.pdf)
+> [[key]](/assets/pdf/2025-Astronomy_C-UT/Key.pdf)
+> [[walkthrough]](/assets/pdf/2025-Astronomy_C-UT/Walkthrough.pdf)
+> [[statistics]](/assets/pdf/2025-Astronomy_C-UT/Statistics.pdf)
 >
-> the first exam of the season! though it ended up being a "states" level exam, it touches on many core concepts in this year's rules. i hope teams can use this test as a springboard into their preparations, and to help guide teams along, i plan to release walkthrough materials to help teams review.
+> the first exam of the season! though it ended up being a challenging "states" level exam, it touches on many core concepts in this year's rules.
 >
-> *check back nov 10!*
+> check out the <u>walkthrough</u>! it goes through sections b, c, and d in detail and includes references to more sources. as a former competitor, i know how daunting astronomy can seem. i hope the walkthrough can help guide you through the cosmos!
 
 *see the [full catalogue](/scioly/exams)*
 
