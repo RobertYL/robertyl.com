@@ -24,7 +24,7 @@ we are always looking for new members. if you're eager to help and interested in
 >
 > the first exam of the season! though it ended up being a challenging "states" level exam, it touches on many core concepts in this year's rules.
 >
-> check out the <u>walkthrough</u>! it goes through sections b, c, and d in detail and includes references to more sources. as a former competitor, i know how daunting astronomy can seem. i hope the walkthrough can help guide you through the cosmos!
+> check out the <u>walkthrough</u>! it goes through sections b, c, and d in detail and includes references to more sources. as a former competitor, i know how daunting astronomy can seem. i hope the walkthrough can help guide you through the cosmos.
 
 *see the [full catalogue](/scioly/exams)*
 
