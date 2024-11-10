@@ -5,7 +5,7 @@ parent: scioly
 layout: scioly.njk
 ---
 
-my tournament involvement and past exams i have administered. hover over each tournament for its full name.
+select the filters to see my tournament involvement. hover over each tournament for its full name.
 
 currently, links to past exams are broken due to migration of files off of drive. for access, contact robert by email with the subject line "SciOly Exam Access" and specify the season, tournament, and event.
 

@@ -14,13 +14,9 @@ we are always looking for new members. if you're eager to help and interested in
 
 *this season*
 
-> **UT** (oct 26) &mdash;
-> [[exam]](/assets/pdf/2025-Astronomy_C-UT/Exam.pdf)
-> [[images]](/assets/pdf/2025-Astronomy_C-UT/Images.pdf)
-> [[sheet]](/assets/pdf/2025-Astronomy_C-UT/Sheet.pdf)
-> [[key]](/assets/pdf/2025-Astronomy_C-UT/Key.pdf)
-> [[walkthrough]](/assets/pdf/2025-Astronomy_C-UT/Walkthrough.pdf)
-> [[statistics]](/assets/pdf/2025-Astronomy_C-UT/Statistics.pdf)
+> **UT** (oct 26)
+> &mdash;
+> {% exam "2025-Astronomy_C-UT", "exam", "images", "sheet", "key", "walkthrough", "statistics" %}
 >
 > the first exam of the season! though it ended up being a challenging "states" level exam, it touches on many core concepts in this year's rules.
 >

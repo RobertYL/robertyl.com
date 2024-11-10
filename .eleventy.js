@@ -22,6 +22,11 @@ module.exports = function(eleventyConfig) {
     // eleventyConfig.addPassthroughCopy("src/backend/js");
     // eleventyConfig.addWatchTarget("src/backend/js/");
 
+    // for linking exam materials
+    eleventyConfig.addShortcode("exam", (id, ...files) => files.map(x=>`
+        [[${x}]](/assets/pdf/${id}/${x[0].toUpperCase()}${x.slice(1)}.pdf) 
+    `.trim()).join(" "));
+
     return {
         dir: {
             input: "src",
