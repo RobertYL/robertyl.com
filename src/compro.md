@@ -4,7 +4,42 @@ subtitle: algorithm wrangling
 layout: base.njk
 ---
 
-in high school, i competed in [USACO](https://usaco.org/) and reached the platinum division. at [UCLA](https://icpc.uclaacm.com/), i competed in [ICPC](https://icpc.global/) for all four years at the [southern california regional](http://socalcontest.org/) with a highest placement of 3rd in the 2024 season.
+in high school, i competed in [USACO](https://usaco.org/) and reached the platinum division. at [UCLA](https://icpc.uclaacm.com/), i competed in [ICPC](https://icpc.global/) for all four years at the [southern california regional](http://socalcontest.org/) with a highest placement of 3rd. at [Purdue](https://purduecpu.com/), our team placed 2nd at the [east central NA regional](https://ec.na.icpc.global/) qualifying for the NAC.
+
+<figure>
+  <picture>
+    <source type="image/webp"
+      sizes="
+        (max-width: 1000px) 1000px,
+        (max-width: 1500px) 1500px,
+        100vw"
+      srcset="
+        /assets/img/icpc/2025-1000w.webp 1000w,
+        /assets/img/icpc/2025-1500w.webp 1500w,
+        /assets/img/icpc/2025.webp 2550ww"
+    >
+    <img
+      sizes="
+        (max-width: 1000px) 1000px,
+        (max-width: 1500px) 1500px,
+        100vw"
+      srcset="
+        /assets/img/icpc/2025-1000w.jpg 1000w,
+        /assets/img/icpc/2025-1500w.jpg 1500w,
+        /assets/img/icpc/2025.jpg 2550w"
+      src="/assets/img/icpc/2025.jpg"
+      alt="Robert, his teammates, and Professor Smallberg standing on stage for a photo op with SoCal Regional ICPC Contest coordinators."
+    >
+  </picture>
+  <figcaption>
+    <b>'24-25</b>
+    <i>
+      Purdue Waffle Wizards (second from the left, from left to right):
+      <br>
+      Wilbert Chu, Thomas Marlowe, and Robert Lee.
+    </i>
+  </figcaption>
+</figure>
 
 <figure>
   <picture>
