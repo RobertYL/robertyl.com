@@ -28,7 +28,7 @@ in high school, i competed in [USACO](https://usaco.org/) and reached the platin
         /assets/img/icpc/2025-1500w.jpg 1500w,
         /assets/img/icpc/2025.jpg 2550w"
       src="/assets/img/icpc/2025.jpg"
-      alt="Robert, his teammates, and Professor Smallberg standing on stage for a photo op with SoCal Regional ICPC Contest coordinators."
+      alt="Robert and his teammates at the front of a classroom with Purdue ICPC coaches after the contest."
     >
   </picture>
   <figcaption>
