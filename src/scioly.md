@@ -12,15 +12,23 @@ we are always looking for new members. if you're eager to help and interested in
 
 ### past exams
 
-*this season*
+*select <u>astronomy</u> material from the current* {★} *or past seasons*
 
-> **UT** (oct 26)
+> {★} **UT** (oct 26)
 > &mdash;
 > {% exam "2025-Astronomy_C-UT", "exam", "images", "sheet", "key", "walkthrough", "statistics" %}
 >
-> the first exam of the season! though it ended up being a challenging "states" level exam, it touches on many core concepts in this year's rules.
+> the first exam of the '24-25 season! though it ended up being a challenging "states" level exam, it touches on many core concepts in this year's rules.
 >
-> check out the <u>walkthrough</u>! it goes through sections b, c, and d in detail and includes references to more sources. as a former competitor, i know how daunting astronomy can seem. i hope the walkthrough can help guide you through the cosmos.
+> check out the <u>walkthrough</u>! it goes through sections b, c, and d in detail and includes references to more sources. as a former competitor, i know how daunting astronomy can seem. i hope the walkthrough is a helpful guide.
+
+> **LA regionals** (mar 2)
+> &mdash;
+> {% exam "2024-Astronomy_C-LA_Regional", "exam", "images", "sheet", "key" %}
+>
+> a "regionals" level exam from the los angeles regional tournament.
+>
+> skip questions A25, A32, and B16-23 which refer to objects on the '23-24 list.
 
 *see the [full catalogue](/scioly/exams)*
 
