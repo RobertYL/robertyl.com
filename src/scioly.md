@@ -27,6 +27,14 @@ difficult sections in detail and include references to more resources. as a
 former competitor, i know how daunting astronomy can seem. i hope the guides are
 helpful!
 
+> {★} **MIT** (jan 25)
+> &mdash;
+> {% exam "2025-Astronomy_C-MIT", "exam", "images", "sheet", "key", "stats" %}
+>
+> a nationals-level exam!
+>
+> *check back feb 8 for the walkthrough guide*
+
 > {★} **Boyceville** (dec 7)
 > &mdash;
 > {% exam "2025-Astronomy_C-Boyceville", "exam", "images", "sheet", "key", "walkthrough", "stats" %}
