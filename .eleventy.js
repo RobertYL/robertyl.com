@@ -13,11 +13,13 @@ module.exports = function(eleventyConfig) {
         }
     });
 
-    eleventyConfig.addPassthroughCopy("src/assets/img");
-    eleventyConfig.addPassthroughCopy("src/assets/pdf/**");
+    eleventyConfig.addPassthroughCopy("src/assets");
     eleventyConfig.addPassthroughCopy("src/css");
     eleventyConfig.addPassthroughCopy("src/js");
     eleventyConfig.addWatchTarget("src/js/");
+
+    eleventyConfig.addPassthroughCopy("src/browserconfig.xml");
+    eleventyConfig.addPassthroughCopy("src/site.webmanifest");
 
     // eleventyConfig.addPassthroughCopy("src/backend/js");
     // eleventyConfig.addWatchTarget("src/backend/js/");
@@ -30,7 +32,7 @@ module.exports = function(eleventyConfig) {
     return {
         dir: {
             input: "src",
-            output: "docs"
+            output: "docs",
         }
     };
 };
