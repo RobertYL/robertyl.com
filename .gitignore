@@ -18,7 +18,7 @@ api-docs/
 .idea
 
 # Ignore eleventy output when doing manual tests
-# _site/
+docs/
 
 package-lock.json
 

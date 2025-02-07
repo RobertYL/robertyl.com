@@ -1,22 +1,18 @@
 {
   "name": "robertyl.com",
   "version": "1.0.0",
-  "description": "",
+  "description": "My personal website!",
   "main": ".eleventy.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RobertYL/robertyl.com.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Robert Lee",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/RobertYL/robertyl.com/issues"
   },
-  "homepage": "https://github.com/RobertYL/robertyl.com#readme",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1"
   },
