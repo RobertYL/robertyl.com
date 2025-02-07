@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "My personal website!",
   "main": ".eleventy.js",
+  "scripts": {
+    "build": "npx eleventy",
+    "serve": "npx eleventy --serve"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RobertYL/robertyl.com.git"
