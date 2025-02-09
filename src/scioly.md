@@ -27,6 +27,12 @@ difficult sections in detail and include references to more resources. as a
 former competitor, i know how daunting astronomy can seem. i hope the guides are
 helpful!
 
+> {★} **Crown Point** (jan 25)
+> &mdash;
+> {% exam "2025-Astronomy_C-Crown_Point", "exam", "images", "walkthrough" %}
+>
+> a regionals-level exam to test your mettle as we head towards regional and state tournaments.
+
 > {★} **MIT** (jan 25)
 > &mdash;
 > {% exam "2025-Astronomy_C-MIT", "exam", "images", "sheet", "key", "stats" %}
