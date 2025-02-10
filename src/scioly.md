@@ -35,11 +35,9 @@ helpful!
 
 > {★} **MIT** (jan 25)
 > &mdash;
-> {% exam "2025-Astronomy_C-MIT", "exam", "images", "sheet", "key", "stats" %}
+> {% exam "2025-Astronomy_C-MIT", "exam", "images", "sheet", "key", "walkthrough", "stats" %}
 >
 > a nationals-level exam!
->
-> *check back feb 8 for the walkthrough guide*
 
 > {★} **Boyceville** (dec 7)
 > &mdash;
