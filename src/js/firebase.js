@@ -77,7 +77,7 @@ document.querySelectorAll('select').forEach(select => {
 
 // Get unique seasons and events to filter by
 var uniqueSeasons = [...new Set(exams.map(exam => exam.season))].sort().reverse();
-var uniqueEvents = [...new Set(exams.map(exam => exam.event.concat(' ',exam.division).toLowerCase()))].sort();
+var uniqueEvents = [...new Set(exams.map(exam => exam.event.concat(' ',exam.division)))].sort();
 
 uniqueSeasons.forEach((season) => {
     var opt = new Option(season);
@@ -98,7 +98,7 @@ function renderExams() {
     exams.forEach((exam) => {
         if(sfilterRef.value != 'all' && sfilterRef.value != exam.season) return;
         if(efilterRef.value != 'all'
-                && efilterRef.value != exam.event.concat(' ',exam.division).toLowerCase())
+                && efilterRef.value != exam.event.concat(' ',exam.division))
             return;
         
         var newRow = tbodyRef.insertRow();
@@ -115,10 +115,10 @@ function renderExams() {
         var dateCell = newRow.insertCell();
         var dateOptions = { year: 'numeric', month: 'short', day: 'numeric', timeZone : 'UTC' };
         dateCell.innerHTML = (new Date(exam.date))
-            .toLocaleDateString('en-US', dateOptions).toLowerCase();
+            .toLocaleDateString('en-US', dateOptions);
         
         var eventCell = newRow.insertCell();
-        eventCell.innerHTML = exam.event.concat(' ',exam.division).toLowerCase();
+        eventCell.innerHTML = exam.event.concat(' ',exam.division);
     });
 
     var old_tbodyRef = document.getElementById('table-body');

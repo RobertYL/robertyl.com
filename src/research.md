@@ -4,4 +4,6 @@ subtitle: what is astrodynamics?
 layout: base.njk
 ---
 
-*todo*
+### three-body problem
+
+consider 

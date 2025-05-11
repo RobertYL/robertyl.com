@@ -4,7 +4,7 @@ subtitle: algorithm wrangling
 layout: base.njk
 ---
 
-in high school, i competed in [USACO](https://usaco.org/) and reached the platinum division. at [UCLA](https://icpc.uclaacm.com/), i competed in [ICPC](https://icpc.global/) for all four years at the [southern california regional](http://socalcontest.org/) with a highest placement of 3rd. at [Purdue](https://purduecpu.com/), our team placed 2nd at the [east central NA regional](https://ec.na.icpc.global/) qualifying for the NAC.
+In high school, I competed in [USACO](https://usaco.org/) and reached the platinum division. At [UCLA](https://icpc.uclaacm.com/), I competed in [ICPC](https://icpc.global/) for all four years at the [Southern California Regional](http://socalcontest.org/) with a highest placement of 3rd. At [Purdue](https://purduecpu.com/), our team placed 2nd at the [East Central NA Regional](https://ec.na.icpc.global/) qualifying for the NAC.
 
 <figure>
   <picture>
