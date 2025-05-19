@@ -1,7 +1,7 @@
 ---
 title: science olympiad
 subtitle: paying it forward
-layout: base.njk
+layout: scioly.njk
 ---
 
 [Science Olympiad](https://www.soinc.org/) is the nation's largest team-based

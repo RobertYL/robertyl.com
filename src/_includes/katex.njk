@@ -1,0 +1,9 @@
+{% extends "base.njk" %}
+
+{% block content %}
+    {{ content | katex | safe }}
+{% endblock %}
+
+{% block css %}
+    <link rel="stylesheet" href="https://unpkg.com/katex@latest/dist/katex.min.css">
+{% endblock %}

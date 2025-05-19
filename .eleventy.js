@@ -1,4 +1,5 @@
 const eleventySass = require("eleventy-sass");
+const katex = require("katex");
 
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPlugin(eleventySass, {
@@ -28,6 +29,25 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addShortcode("exam", (id, ...files) => files.map(x=>`
         [[${x}]](/assets/pdf/${id}/${x[0].toUpperCase()}${x.slice(1)}.pdf) 
     `.trim()).join(" "));
+
+    // for LaTeX support with KaTeX
+    eleventyConfig.addFilter("katex", (content) => {
+        return content.replace(/\$\$([\S\s]+?)\$\$/g, (_, equation) => {
+            const cleanEquation = equation.replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&");
+
+            return katex.renderToString(cleanEquation, {
+                throwOnError: false,
+                displayMode: true,
+            });
+        }).replace(/\$(.+?)\$/g, (_, equation) => {
+            const cleanEquation = equation.replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&");
+
+            return katex.renderToString(cleanEquation, {
+                throwOnError: false,
+                displayMode: false,
+            });
+        });
+    });
 
     return {
         dir: {

@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sakura.css@1.5.0/css/normalize.min.css">
     <link rel="stylesheet" href="/css/sakura.css">
     <link rel="stylesheet" href="/css/style.css">
+    {% block css %}{% endblock %}
 
     <script src="/js/theme.js"></script>
   </head>
@@ -53,7 +54,7 @@
           <p><i>{{ subtitle }}</i></p>
         {% endif %}
       </div>
-      {{ content | safe }}
+      {% block content %}{{ content | safe }}{% endblock %}
     </main>
 
     <footer style="display: flex; justify-content: space-between;">
