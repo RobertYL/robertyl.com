@@ -16,7 +16,7 @@ In high school, I competed in [USACO](https://usaco.org/) and reached the platin
       srcset="
         /assets/img/icpc/2025-1000w.webp 1000w,
         /assets/img/icpc/2025-1500w.webp 1500w,
-        /assets/img/icpc/2025.webp 2550ww"
+        /assets/img/icpc/2025.webp 2550w"
     >
     <img
       sizes="

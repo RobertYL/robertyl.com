@@ -1,6 +1,6 @@
 ---
 title: research
-subtitle: what is astrodynamics?
+subtitle: what is multi-body dynamics?
 layout: katex.njk
 ---
 
