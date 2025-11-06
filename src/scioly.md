@@ -8,7 +8,7 @@ layout: base.njk
 science competition, where teams of students take tests, conduct labs, and
 engineer solutions.
 
-### space science events
+### space science
 
 As a member of the national A-Team, I (along with other A-Teamers) develop
 educational resources, write exams, and supervise across the nation at all
@@ -19,7 +19,20 @@ We are always looking for new members. If you're eager to help and interested in
 joining, please don't hesitate to reach out to me or
 [Donna](mailto:dlyoung.nso@gmail.com)!
 
-> **Exams coming soon!** See the astronomy exams from [last year](/scioly/2025).
+### astronomy
+
+Exams from the 2025-2026 season are listed below. Each one includes a
+<u>walkthrough guide</u> that go through the more difficult sections in detail
+and include references to more resources. As a former competitor, I know how
+daunting astronomy can seem. I hope the guides are helpful!
+
+> **UT** (Oct 25)
+> &mdash;
+> {% exam "2026-Astronomy_C-UT", "exam", "images", "sheet", "key", "walkthrough", "stats" %}
+>
+> The first exam of the season! A states-level exam to kick things off.
+
+Also, see the exams from [last season](/scioly/2025).
 
 ### machines
 
