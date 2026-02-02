@@ -43,8 +43,19 @@ Also, see the exams from [last season](/scioly/2025).
 ### machines
 
 The 2025-2026 season brings back Machines, an event focused on simple and
-compound machines. Below are some exams from the 2020-2021 season&mdash;the previous
-time the event was in rotation. They are roughly ordered in increasing
+compound machines. Exams from this season are listed below.
+
+> **MIT** (Jan 24)
+> &mdash;
+> {% exam "2026-Machines_C-MIT", "exam", "sheet", "key", "walkthrough", "stats", "mass" %}
+>
+> Difficult and long. ⚠️
+>
+> In light of this, the walkthrough covers all of the free response questions
+> in depth.
+
+Additionally, exams from the 2020-2021 season&mdash;the previous time the event
+was in rotation&mdash;are also listed. They are roughly ordered in increasing
 difficulty, which is how I'd recommend taking them.
 
 > **SOLVI** (Dec 19, 2020)
