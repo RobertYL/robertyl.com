@@ -1,7 +1,7 @@
 $dark: false;
-@import "fall";
+@import "spring";
 @import "main-style";
 
 $dark: true;
-@import "fall-dark";
+@import "spring-dark";
 .dark{ @import "main-style"; }
