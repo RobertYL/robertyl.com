@@ -45,6 +45,12 @@ Also, see the exams from [last season](/scioly/2025).
 The 2025-2026 season brings back Machines, an event focused on simple and
 compound machines. Exams from this season are listed below.
 
+> **GGSO** (Jan 31)
+> &mdash;
+> {% exam "2026-Machines_C-MIT", "placeholder" %}
+>
+> Check back on the 20th.
+
 > **MIT** (Jan 24)
 > &mdash;
 > {% exam "2026-Machines_C-MIT", "exam", "sheet", "key", "walkthrough", "stats", "mass" %}
