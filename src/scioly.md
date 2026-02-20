@@ -43,22 +43,21 @@ Also, see the exams from [last season](/scioly/2025).
 ### machines
 
 The 2025-2026 season brings back Machines, an event focused on simple and
-compound machines. Exams from this season are listed below.
+compound machines. Exams from this season are listed below. As a forewarning,
+they contain problems more difficult than those in a typical Machines exam, so
+the walkthroughs cover all of them in depth.
 
 > **GGSO** (Jan 31)
 > &mdash;
-> {% exam "2026-Machines_C-MIT", "placeholder" %}
+> {% exam "2026-Machines_C-GGSO", "exam", "sheet", "key", "walkthrough", "stats", "mass" %}
 >
-> Check back on the 20th.
+> A short one. 🛍️
 
 > **MIT** (Jan 24)
 > &mdash;
 > {% exam "2026-Machines_C-MIT", "exam", "sheet", "key", "walkthrough", "stats", "mass" %}
 >
-> Difficult and long. ⚠️
->
-> In light of this, the walkthrough covers all of the free response questions
-> in depth.
+> Curling and a kid's menu. 📄
 
 Additionally, exams from the 2020-2021 season&mdash;the previous time the event
 was in rotation&mdash;are also listed. They are roughly ordered in increasing
@@ -74,7 +73,7 @@ difficulty, which is how I'd recommend taking them.
 > &mdash;
 > {% exam "2021-Machines_C-MLSO", "exam", "sheet", "key", "walkthrough", "stats" %}
 >
-> Includes my most convoluted diagram. 🪢
+> Includes my (second) most convoluted diagram. 🪢
 
 > **Duke** (Jan 30, 2021)
 > &mdash;
