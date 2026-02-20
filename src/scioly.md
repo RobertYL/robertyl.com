@@ -47,7 +47,7 @@ compound machines. Exams from this season are listed below. As a forewarning,
 they contain problems more difficult than those in a typical Machines exam, so
 the walkthroughs cover all of them in depth.
 
-> **GGSO** (Jan 31)
+> **Golden Gate** (Jan 31)
 > &mdash;
 > {% exam "2026-Machines_C-GGSO", "exam", "sheet", "key", "walkthrough", "stats", "mass" %}
 >
