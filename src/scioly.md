@@ -40,65 +40,6 @@ daunting astronomy can seem. I hope the guides are helpful!
 
 Also, see the exams from [last season](/scioly/2025).
 
-### machines
-
-The 2025-2026 season brings back Machines, an event focused on simple and
-compound machines. Exams from this season are listed below. As a forewarning,
-they contain problems more difficult than those in a typical Machines exam, so
-the walkthroughs cover all of them in depth.
-
-> **Golden Gate** (Jan 31)
-> &mdash;
-> {% exam "2026-Machines_C-GGSO", "exam", "sheet", "key", "walkthrough", "stats", "mass" %}
->
-> A short one. 🛍️
-
-> **MIT** (Jan 24)
-> &mdash;
-> {% exam "2026-Machines_C-MIT", "exam", "sheet", "key", "walkthrough", "stats", "mass" %}
->
-> Curling and a kid's menu. 📄
-
-Additionally, exams from the 2020-2021 season&mdash;the previous time the event
-was in rotation&mdash;are also listed. They are roughly ordered in increasing
-difficulty, which is how I'd recommend taking them.
-
-> **SOLVI** (Dec 19, 2020)
-> &mdash;
-> {% exam "2021-Machines_C-SOLVI", "exam", "sheet", "key", "walkthrough", "stats" %}
->
-> Has gears on gears. ⚙️
-
-> **Mira Loma** (Jan 9, 2021)
-> &mdash;
-> {% exam "2021-Machines_C-MLSO", "exam", "sheet", "key", "walkthrough", "stats" %}
->
-> Includes my (second) most convoluted diagram. 🪢
-
-> **Duke** (Jan 30, 2021)
-> &mdash;
-> {% exam "2021-Machines_C-DUSO", "exam", "sheet", "key", "walkthrough", "stats" %}
->
-> Contains my favorite FRQ. 🚲
-
-> **BirdSO** (Mar 6, 2021)
-> &mdash;
-> {% exam "2021-Machines_C-BirdSO", "exam", "sheet", "key", "walkthrough", "stats" %}
->
-> 🌿
-
-> **Golden Gate** (Feb 13, 2021)
-> &mdash;
-> {% exam "2021-Machines_C-GGSO", "exam", "sheet", "key", "walkthrough", "stats" %}
->
-> Has a multiple select gauntlet. 🥊
-
-> **BEARSO** (Oct 10, 2020)
-> &mdash;
-> {% exam "2021-Machines_C-BEARSO", "exam", "sheet", "key", "walkthrough", "stats" %}
-> 
-> Is exceedingly long. 🤕
-
 ### past exams
 
 See the [full catalogue](/scioly/exams).

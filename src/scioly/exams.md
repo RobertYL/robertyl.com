@@ -5,9 +5,13 @@ parent: scioly
 layout: scioly.njk
 ---
 
-Select the filters to see my tournament involvement by season and/or event. Hover over each tournament for its full name.
+Select the filters to see my tournament involvement by season and/or event.
+Hover over each tournament for its full name.
 
-Currently, links to past exams are broken due to migration of files off of drive. For access, contact Robert by email with the subject line "SciOly Exam Access" and specify the season, tournament, and event.
+Currently, links to most past exams are broken due to migration of files off of
+Drive. Some [Astronomy](/scioly) and [Machines](/scioly/machines) exams are
+available. For access to others, contact Robert by email with the subject line
+"SciOly Exam Access" and specify the season, tournament, and event.
 
 <select id="season-filter">
   <option value="na" selected hidden>Season</option>
