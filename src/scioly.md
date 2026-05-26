@@ -21,24 +21,14 @@ joining, please don't hesitate to reach out to me or
 
 ### astronomy
 
-Exams from the 2025-2026 season are listed below. Each one includes a
+Exams from the 2026-2027 season are listed below. Each one includes a
 <u>walkthrough guide</u> that go through the more difficult sections in detail
 and include references to more resources. As a former competitor, I know how
-daunting astronomy can seem. I hope the guides are helpful!
+daunting this event can seem. I hope the guides are helpful!
 
-> **Northview** (Dec 6)
-> &mdash;
-> {% exam "2026-Astronomy_C-Northview", "exam", "images", "sheet", "key", "walkthrough", "stats" %}
->
-> Another states-level exam.
+> **Exams coming soon!**
 
-> **UT** (Oct 25)
-> &mdash;
-> {% exam "2026-Astronomy_C-UT", "exam", "images", "sheet", "key", "walkthrough", "stats" %}
->
-> The first exam of the season! A states-level exam to kick things off.
-
-Also, see the exams from [last season](/scioly/2025).
+See the exams from [previous seasons](/scioly/astro).
 
 ### past exams
 

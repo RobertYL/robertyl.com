@@ -9,7 +9,7 @@ Select the filters to see my tournament involvement by season and/or event.
 Hover over each tournament for its full name.
 
 Currently, links to most past exams are broken due to migration of files off of
-Drive. Some [Astronomy](/scioly) and [Machines](/scioly/machines) exams are
+Drive. Some [Astronomy](/scioly/astro) and [Machines](/scioly/machines) exams are
 available. For access to others, contact Robert by email with the subject line
 "SciOly Exam Access" and specify the season, tournament, and event.
 

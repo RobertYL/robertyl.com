@@ -1,24 +1,38 @@
 ---
-title: 2025 exams
+title: astronomy
 parent: scioly
 layout: base.njk
 ---
 
-*material for <u>Astronomy</u> from the 2024-2025 season*
+*past exams from the 2025-2026 and 2024-2025 seasons*
 
-> **Crown Point** (Jan 25)
+These are ordered chronologically.
+
+> **Northview** (Dec 6, 2025)
+> &mdash;
+> {% exam "2026-Astronomy_C-Northview", "exam", "images", "sheet", "key", "walkthrough", "stats" %}
+>
+> Another states-level exam.
+
+> **UT** (Oct 25, 2025)
+> &mdash;
+> {% exam "2026-Astronomy_C-UT", "exam", "images", "sheet", "key", "walkthrough", "stats" %}
+>
+> The first exam of the '25-26 season! A states-level exam to kick things off.
+
+> **Crown Point** (Jan 25, 2025)
 > &mdash;
 > {% exam "2025-Astronomy_C-Crown_Point", "exam", "images", "walkthrough" %}
 >
 > A regionals-level exam to test your mettle as we head towards regional and state tournaments.
 
-> **MIT** (Jan 25)
+> **MIT** (Jan 25, 2025)
 > &mdash;
 > {% exam "2025-Astronomy_C-MIT", "exam", "images", "sheet", "key", "walkthrough", "stats" %}
 >
 > A nationals-level exam!
 
-> **Boyceville** (Dec 7)
+> **Boyceville** (Dec 7, 2024)
 > &mdash;
 > {% exam "2025-Astronomy_C-Boyceville", "exam", "images", "sheet", "key", "walkthrough", "stats" %}
 >
@@ -41,7 +55,7 @@ layout: base.njk
 >   </em>
 > </details>
 
-> **UT** (Oct 26)
+> **UT** (Oct 26, 2024)
 > &mdash;
 > {% exam "2025-Astronomy_C-UT", "exam", "images", "sheet", "key", "walkthrough", "stats" %}
 >
