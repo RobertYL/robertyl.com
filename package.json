@@ -18,10 +18,10 @@
     "url": "https://github.com/RobertYL/robertyl.com/issues"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy": "^3.1.6",
+    "sass": "^1.102.0"
   },
   "dependencies": {
-    "eleventy-sass": "^1.3.1",
     "firebase": "^10.13.1",
     "katex": "^0.18.2"
   }

@@ -1,18 +1,38 @@
-const eleventySass = require("eleventy-sass");
+const path = require("node:path");
+const sass = require("sass");
 const katex = require("katex");
 
 module.exports = function(eleventyConfig) {
-    eleventyConfig.addPlugin(eleventySass, {
+    // for scss integration
+    eleventyConfig.addTemplateFormats("scss");
+	eleventyConfig.addExtension("scss", {
+		outputFileExtension: "css",
+		useLayouts: false,
+
         compileOptions: {
             permalink: function(contents, inputPath) {
-                return (data) => data.page.filePathStem.replace(/^\/scss\//, "/css/") + ".css";
-            }
+            return (data) =>
+                data.page.filePathStem
+                    .replace(/^\/scss\//, "/css/") + ".css";
+            },
         },
-        sass: {
-            style: "compressed",
-            sourceMap: false
-        }
-    });
+
+		compile: async function (inputContent, inputPath) {
+			let parsed = path.parse(inputPath);
+			if(parsed.name.startsWith("_")) {
+				return;
+			}
+			let result = sass.compileString(inputContent, {
+				loadPaths: [
+					parsed.dir || ".",
+					this.config.dir.includes,
+				],
+                style: "compressed",
+			});
+			this.addDependencies(inputPath, result.loadedUrls);
+			return async () => result.css;
+		},
+	});
 
     eleventyConfig.addPassthroughCopy("src/assets");
     eleventyConfig.addPassthroughCopy("src/css");
