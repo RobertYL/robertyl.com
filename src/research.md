@@ -31,3 +31,9 @@ are fixed at $(-\mu, 0, 0)$ and $(1-\mu, 0, 0)$, respectively.
 
 The rich dynamical structure of the CR3BP manifests as periodic, quasi-periodic,
 and chaotic motion. My research focuses on understanding this structure.
+
+### publications
+
+1. Lee, R. Y. and Howell, K. C. "Divergence Mechanisms for Normal Forms in the
+Circular Restricted Three-Body Problem," 2026 AAS/AIAA Astrodynamics Specialist
+Conference, Whistler, British Columbia, July 26-30, 2026.
